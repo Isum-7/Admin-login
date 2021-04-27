@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    font-family:'Merriweather', serif;
+}
+body{
+    background-image: url(./pexels-iconcom-719597.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 450px;
+    height: 850px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #ecf0f3;
+    box-shadow: 2px 2px 5px #5f5f5f,
+                -2px -2px 5px #555,
+                15px 15px 20px #ffffff,
+               -15px -15px 20px #ffffff;
+}
+.logo{
+    background-image: url("../F-F.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 260px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 2px #5f5f5f,
+                10px 10px 15px #a7aaaf,
+                -10px -10px 15px #ffffff; 
+}
+.title{
+    text-align: center;
+    font-family:'Merriweather', serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    letter-spacing: .5px;
+}
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+}
+.form-control{
+    width: 100%;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 5px #a7aaaf,
+                inset -10px -10px 5px white;
+}
+.span{
+    position: absolute;
+    transform: translate(0,-50%);
+    cursor: pointer;
+}
+.fa{
+    font-size: 20px ;
+    color: aqua;
+}
+.btn{
+    width: 50%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    display: block;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+    -o-transition: 0.8s ease-in-out;
+    -moz-transition: 0.8s ease-in-out;
+    box-shadow: inset 5px 5px 5px rgba(255, 0, 0, 0.2),
+                inset -5px -5px 5px rgba(255, 0, 0, 0.4);
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color:#555;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+}
